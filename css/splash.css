@@ -1,0 +1,203 @@
+/* Main Sections */
+body {
+	width: 100%;
+	background-color: #053a4d;
+	overflow: hidden;
+}
+
+.line {
+	width: 450px;
+	border-top: 2px solid white;
+	position: absolute;
+	left: 1050px;
+	top: 609px;
+}
+
+.start {
+	height: 75px;
+	width: 75px;
+	border-radius: 50px;
+	position: absolute;
+	top: 570px;
+	left: 1000px;
+	background-color: #d85050;
+}
+
+.window {
+	height: 700px;
+	width: 3000px;
+	position: absolute;
+	top: 35px;
+	left: 1450px;
+	background-color: white;
+}
+
+.arrow {
+	position: absolute;
+	top: 20px;
+	left: 25px;
+}
+
+h1 {
+	font-family: bookman-jf-pro, serif;
+	font-weight: 400;
+	font-style: italic;
+	position: absolute;
+	color: white;
+	font-size: 60px;
+	top: 150px;
+	left: 200px;
+	animation: fadeIn 1s linear forwards;
+	animation-delay: 1s;
+	opacity: 0;
+}
+
+h2 {
+	font-family: bookman-jf-pro, serif;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 33pt;
+	position: absolute;
+	color: white;
+	font-size: 30px;
+	top: 200px;
+	left: 205px;
+	opacity: 0;
+}
+
+.son {
+	animation: fadeIn 1s linear forwards;
+	animation-delay: 2.5s;
+	top: 260px;
+	left: 205;
+}
+
+.third {
+	animation: fadeIn 1s linear forwards;
+	animation-delay: 3.5s;
+	top: 310px;
+	left: 205px;
+}
+
+.class {
+	animation: fadeIn 1s linear forwards;
+	animation-delay: 4.5s;
+	top: 360px;
+	left: 205px;
+}
+
+.runner {
+	animation: fadeIn 1s linear forwards;
+	animation-delay: 5.5s;
+	top: 410px;
+	left: 205px;
+}
+
+.texting {
+	font-family: bookman-jf-pro, serif;
+	font-weight: 400;
+	font-style: normal;
+	position: absolute;
+	font-size: 30px;
+	animation: fadeIn 1s linear forwards;
+	animation-delay: 7s;
+	top: 575px;
+	left: 205px;
+	color: #d85050;
+	opacity: 0;
+}
+
+.donor {
+	font-family: bookman-jf-pro, serif;
+	font-weight: 400;
+	font-style: normal;
+	position: absolute;
+	font-size: 50px;
+	top: 245px;
+	left: 800px;
+	color: #d85050;
+	opacity: 0;
+	animation-delay: 8s;
+
+}
+
+.when {
+	font-family: bookman-jf-pro, serif;
+	font-weight: 400;
+	font-style: normal;
+	position: absolute;
+	font-size: 30px;
+	top: 340px;
+	left: 800px;
+	color: #4e98b0;
+	opacity: 0;
+	width: 400px;
+}
+
+.another {
+	font-family: bookman-jf-pro, serif;
+	font-weight: 400;
+	font-style: normal;
+	position: absolute;
+	font-size: 30px;
+	top: 380px;
+	left: 800px;
+	color: #4e98b0;
+	opacity: 0;
+	width: 400px;
+}
+
+.learn {
+	font-family: bookman-jf-pro, serif;
+	font-weight: 400;
+	font-style: normal;
+	position: absolute;
+	font-size: 30px;
+	top: 530px;
+	width: 400px;
+	left: 800px;
+	color: white;
+	opacity: 0;
+}
+
+.button {
+	height: 50px;
+	width: 100px;
+	background-color: #d85050;
+	border-radius: 20px;
+	position: absolute;
+	top: 650px;
+	left: 800px;
+	opacity: 0;
+}
+
+.go {
+	font-family: futura-pt, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 25pt;
+	color: #053a4d;
+	position: absolute;
+	top: 8px;
+	left: 23px;
+
+
+ 
+
+}
+
+/* Keyframes */
+@keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+@keyframes donor_fade {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+
+
+
+

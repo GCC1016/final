@@ -1,0 +1,283 @@
+body {
+	background-color: #14485b;
+	overflow: hidden;
+}
+
+.body {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.register {
+	font-family: bookman-jf-pro, serif;
+	font-weight: 400;
+	font-style: normal;
+	position: absolute;
+	font-size: 100px;
+	left: 600px;
+	top: 80px;
+	color: #d85050;
+	z-index: 5;
+	animation: fadeIn 2s linear forwards;
+	transition: 1s ease;
+}
+
+@keyframes fadeIn {
+	0% {opacity: 0}
+	100% {opacity: 1}
+}
+
+.register:hover {
+	font-size: 120px;
+	left: 590px;
+	top: 75px;
+	transition: 1s ease;
+}
+
+.one {
+	height: 300px;
+	width: 400px;
+	position: absolute;
+	top: 200px;
+	left: 400px;
+	background-color: #d68788;
+	z-index: 25;
+	overflow: hidden;
+	transition: 1s ease;
+}
+
+.one:hover {
+	height: 320px;
+	width: 420px;
+	left: 395px;
+	top: 195px;
+	transition: 1s ease;
+}
+
+.two {
+	height: 275px;
+	width: 275px;
+	background-color:  #d67576;
+	position: absolute;
+	left: 524px;
+	top: 530px;
+	overflow: hidden;
+	transition: 1s ease;
+}
+
+.two:hover {
+	height: 295px;
+	width: 295px;
+	left: 515px;
+	top: 515px;
+	transition: 1s ease;
+}
+
+.three {
+	height: 360px;
+	width: 375px;
+	background-color: #d66365;
+	position: absolute;
+	left: 830px;
+	top: 200px;
+	overflow: hidden;
+	transition: 1s ease;
+
+}
+
+.three:hover {
+	height: 380px;
+	width: 395px;
+	left: 825px;
+	top: 195px;
+	transition: 1s ease;
+}
+
+.four {
+	height: 350px;
+	width: 450px;
+	background-color:  #d65153;
+	position: absolute;
+	left: 830px;
+	top: 590px;
+	transition: 1s ease;
+	overflow: hidden;
+}
+
+.four:hover {
+	height: 370px;
+	width: 470px;
+	left: 825px;
+	top: 580px;
+	transition: 1s ease;
+}
+
+.arrows {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -15;
+}
+
+.stats {
+	font-family: bookman-jf-pro, serif;
+	font-weight: 400;
+	left: 20px;
+	position: absolute;
+	font-style: normal;
+	position: absolute;
+	font-size: 30px;
+	width: 400px;
+	z-index: 20;
+}
+
+.stats_one {
+	position: absolute;
+	top: 540px;
+	color: white;
+	z-index: 20;
+}
+
+.stats_two {
+	position: absolute;
+	top: 605px;
+	color: white;
+	z-index: 20;
+}
+
+.stats_three {
+	position: absolute;
+	top: 670px;
+	color: #d85050;
+	z-index: 20;
+}
+
+
+.nav {
+	width: 100px;
+	font-family: bookman-jf-pro, serif;
+	font-weight: 400;
+	font-style: normal;
+	position: absolute;
+	font-size: 23px;
+	left: 1320px;
+	top: 50px;
+	color: #032936;
+	
+}
+
+.circle {
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+	background-color: white;
+	opacity: .2;
+	position: absolute;
+	left: -30px;
+	top: -30px;
+}
+
+.number {
+	font-family: bookman-jf-pro, serif;
+	width: 100px;
+	font-weight: 400;
+	font-size: 120px;
+	color: #14485b;
+	z-index: 5;
+	left: 20px;
+	top: 10px;
+	position: absolute;
+
+}
+
+.heading {
+	font-family: bookman-jf-pro, serif;
+	width: 200px;
+	font-weight: 400;
+	font-size: 25px;
+	color: white;
+	z-index: 5;
+	left: 90px;
+	top: 27px;
+	position: absolute;
+}
+
+.text_one {
+	width: 250px;
+	font-family: futura-pt, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	color: white;
+	position: absolute;
+	left: 90px;
+	top: 65px;
+	font-size: 15pt;
+}
+
+.text_two {
+	width: 250px;
+	font-family: futura-pt, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	color: white;
+	position: absolute;
+	left: 90px;
+	top: 90px;
+	font-size: 15pt;
+}
+
+.text_three {
+	width: 160px;
+	font-family: futura-pt, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	color: white;
+	position: absolute;
+	left: 90px;
+	top: 80px;
+	font-size: 15pt;
+}
+
+.text_four {
+	width: 350px;
+	font-family: futura-pt, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	color: white;
+	position: absolute;
+	left: 100px;
+	top: 60px;
+	font-size: 15pt;
+}
+
+.nav_two {
+	font-family: bookman-jf-pro, serif;
+	width: 100px;
+	font-weight: 400;
+	font-style: normal;
+	position: absolute;
+	font-size: 23px;
+	left: 1320px;
+	top: 150px;
+	color: #032936;
+}
+
+.nav_three {
+	font-family: bookman-jf-pro, serif;
+	font-weight: 400;
+	font-style: normal;
+	position: absolute;
+	font-size: 23px;
+	left: 1320px;
+	top: 250px;
+	color: #032936;
+}
+
+.background {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	left: 25px;
+	z-index: -20;
+}
